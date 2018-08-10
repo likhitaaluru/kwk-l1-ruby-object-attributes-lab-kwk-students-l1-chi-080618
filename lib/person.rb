@@ -1,7 +1,7 @@
 # person.rb
 class Person
   attr_reader :name
-  attr_accessor :breed
+  attr_accessor :job
   def name=(name)
     @name = name
   end

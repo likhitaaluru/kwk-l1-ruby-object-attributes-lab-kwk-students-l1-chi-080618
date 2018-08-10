@@ -7,6 +7,6 @@ class Person
   end
 end
 
-fido = Dog.new 
-fido.name = "Fido"
-puts fido.name
+joe = Person.new 
+joe.name = "Joe"
+puts joe.name

@@ -1,7 +1,7 @@
 # dog.rb
 class Dog
   def name=(dog_name)
-    @name=name
+    @name = name
   end
   
   def name

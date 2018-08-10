@@ -1,6 +1,6 @@
 # dog.rb
 class Dog
-  def name=(dog_name)
+  def name=(name)
     @name = name
   end
   
@@ -8,6 +8,7 @@ class Dog
     @name
   end
 end
+
 fido = Dog.new 
 fido.name = "Fido"
 puts fido.name

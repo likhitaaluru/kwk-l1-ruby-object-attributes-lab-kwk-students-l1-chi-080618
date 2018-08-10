@@ -1,9 +1,9 @@
 # dog.rb
 class Dog
-  attr_reader :name, :breed
-  def name=(name, breed)
+  attr_reader :name
+  attr_accessor :breed
+  def name=(name)
     @name = name
-    @breed = breed
   end
 end
 

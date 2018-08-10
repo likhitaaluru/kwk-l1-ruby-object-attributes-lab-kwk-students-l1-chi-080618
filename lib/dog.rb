@@ -1,12 +1,10 @@
 # dog.rb
 class Dog
+  attr_reader :name :breed
   
-  def name=(name)
+  def name=(name, breed)
     @name = name
-  end
-  
-  def name
-    @name
+    @breed = breed
   end
 end
 
